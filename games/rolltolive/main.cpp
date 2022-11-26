@@ -13,7 +13,6 @@
 void spawnMonkey(GameEngine* game);
 void spawnHealth(GameEngine* game);
 
-// TEST can we create our own Actions??
 enum ACTION
 {
     ACTION_NO_ACTION = 0,
@@ -254,7 +253,8 @@ int main()
         return 1;
 
     // These Should ALWAYS be set 
-    game.setObjectsPath("/home/rdh/Programs/C++/Project/media/");
+    //game.setObjectsPath("/home/rdh/Programs/C++/Project/media/");
+    game.setObjectsPath("../../media/");
     
     // add game objects
     
@@ -266,9 +266,9 @@ int main()
     //terrain->setDebugMode(true); // print out information
     terrain->setPos(vector3df(-256,-50,-256)); // (-128 , 0 , -128)  should put center of 256x256 map at 0,0,0
     terrain->setMaterialTexture(0, // material layer
-                                game.getIrrlicht()->getVideoDriver()->getTexture("/home/rdh/Programs/C++/Project/media/terrain-texture.jpg"));
+                                game.getIrrlicht()->getVideoDriver()->getTexture("../../media/terrain-texture.jpg"));
     terrain->setMaterialTexture(1,
-                                game.getIrrlicht()->getVideoDriver()->getTexture("/home/rdh/Programs/C++/Project/media/detailmap3.jpg"));
+                                game.getIrrlicht()->getVideoDriver()->getTexture("../../media/detailmap3.jpg"));
     terrain->setMaterialType(EMT_DETAIL_MAP);
     terrain->scaleTexture(1.0f,20.0f);
     terrain->setScale(vector3df(2.0f,0.05f,2.0f));
@@ -406,7 +406,7 @@ int main()
     btVector3 v;
     
     // display Score
-    IGUIFont* font = game.getIrrlicht()->getGUI()->getFont("/home/rdh/Programs/C++/Project/media/myfont-28px/myfont-28px.xml");
+    IGUIFont* font = game.getIrrlicht()->getGUI()->getFont("../../media/myfont-28px/myfont-28px.xml");
     stringw displayText = L"";
     IGUIStaticText* textScore = game.getIrrlicht()->getGUI()->addStaticText(displayText.c_str(), rect<s32>(20,20,500,55), true);
     textScore->setOverrideFont(font);
