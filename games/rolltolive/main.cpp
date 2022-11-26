@@ -149,7 +149,7 @@ void GameEngine::objectUpdate()
                     CharObject* player = getObjectByID(new CharObject, 1); // player
                     player->health -= 5; 
                     
-                    // your have fulfulled your purpose, DIE!
+                    // you have fulfilled your purpose, DIE!
                     monkey->setLifeTime(1);
                 }
                 
