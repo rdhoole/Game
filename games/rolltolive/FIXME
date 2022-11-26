@@ -1,2 +1,3 @@
     
-    Add ability to restart the game without exiting and restarting.
+    * Need to add ability to restart the game without exiting and rerunning.
+    * Can not move camera angle while pushing another key down.
