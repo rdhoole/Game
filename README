@@ -3,6 +3,7 @@ To compile, running make in src directory
 
 Linux builds will be in lib
 Mac builds will be in bin/MyApp.app/Contents/MacOS/
+Mac's that are arm64 do not compile.
 
 (Because It will grab the keyboard and mouse there for some reason…)
 
