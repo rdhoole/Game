@@ -1,0 +1,4 @@
+<map id="TerrainObject::setUpBullet" name="TerrainObject::setUpBullet">
+<area shape="rect" id="node2" href="$class_terrain_object.html#af9b44b982670049c816d42973d5f90e4" title="TerrainObject::getBullet\lTriangleMesh" alt="" coords="229,5,389,43"/>
+<area shape="rect" id="node3" href="$class_terrain_object.html#a879e9f4aec0b2655827ce99880c9d889" title="TerrainObject::getPos" alt="" coords="235,67,384,93"/>
+</map>

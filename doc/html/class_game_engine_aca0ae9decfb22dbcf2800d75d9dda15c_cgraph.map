@@ -1,0 +1,19 @@
+<map id="GameEngine::loop" name="GameEngine::loop">
+<area shape="rect" id="node2" href="$class_game_engine.html#adec8d330c298b2a4f17cbdb113a2e99f" title="Update Objects in world. " alt="" coords="187,67,373,93"/>
+<area shape="rect" id="node6" href="$class_irrlicht_standard.html#ad3f621e55fe16b8a50236dd99817d187" title="IrrlichtStandard::startIrr\lScene" alt="" coords="201,117,359,155"/>
+<area shape="rect" id="node7" href="$class_irrlicht_standard.html#aec71fdaf8707a295c2df9f56bd8784ca" title="IrrlichtStandard::endIrr\lScene" alt="" coords="203,179,357,218"/>
+<area shape="rect" id="node8" href="$class_game_engine.html#adcd69394cc0a84b2e0623e80053d713b" title="Check if Keys are pressed, if so, do actions they are assigned to. " alt="" coords="194,242,366,267"/>
+<area shape="rect" id="node3" href="$class_irrlicht_standard.html#aa18343021f243dd2fc1a9f7014e11544" title="IrrlichtStandard::getTime\lStamp" alt="" coords="437,5,603,43"/>
+<area shape="rect" id="node4" href="$class_terrain_object.html#a203005af0bbd6088864bd9903a52e700" title="TerrainObject::remove" alt="" coords="444,67,596,93"/>
+<area shape="rect" id="node5" href="$class_irrlicht_standard.html#a9da9c66e0c56750ad20bf94abd617f71" title="IrrlichtStandard::getDeltaTime" alt="" coords="421,117,619,142"/>
+<area shape="rect" id="node9" href="$class_event_handler.html#ad08205ef017e3b62de850adcd73eb500" title="Returns true if the keyCode inputed is press down. " alt="" coords="432,193,608,218"/>
+<area shape="rect" id="node10" href="$class_game_engine.html#a23e819e28c5551313aa2e0bd05df4e9b" title="Do actions that are assigned to the keymap. " alt="" coords="441,242,599,267"/>
+<area shape="rect" id="node18" href="$class_event_handler.html#a6dac146f458a39e6b5e303a3495ab1b3" title="Get action to key. " alt="" coords="437,291,603,317"/>
+<area shape="rect" id="node11" href="$class_game_engine.html#a4a9ed9e9dfdfe675cba6e933a98a00fb" title="Stop the Engine. " alt="" coords="705,186,837,211"/>
+<area shape="rect" id="node14" href="$class_game_engine.html#af587509955d4054dea3fc9c2e5668912" title="GameEngine::setActiveCamera" alt="" coords="667,242,875,267"/>
+<area shape="rect" id="node17" href="$class_game_engine.html#a87ee7e87eaf258b2778f928e492cde21" title="Get camera pointer from game object list by ID. " alt="" coords="670,291,871,317"/>
+<area shape="rect" id="node12" href="$class_game_engine.html#ad8433307dacbfebbecc9f3ee408cf4d1" title="Delete Bullet Objects. " alt="" coords="953,137,1106,162"/>
+<area shape="rect" id="node13" href="$class_irrlicht_standard.html#a2db3c8b190f218481e655c9085b20cbd" title="IrrlichtStandard::close" alt="" coords="954,186,1104,211"/>
+<area shape="rect" id="node15" href="$class_irrlicht_standard.html#acd86823084ef1e299d0715ab1c7c93af" title="IrrlichtStandard::getScene\lManager" alt="" coords="942,235,1117,274"/>
+<area shape="rect" id="node16" href="$class_camera_object.html#a4ca9a3f168d5c486809c9c67bbaa4f77" title="CameraObject::getCameraNode" alt="" coords="923,298,1136,323"/>
+</map>

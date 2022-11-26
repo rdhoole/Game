@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_g_object.html" title="GObject" alt="" coords="6,103,76,129"/>
+<area shape="rect" id="node2" href="$class_camera_object.html" title="CameraObject" alt="" coords="125,5,232,30"/>
+<area shape="rect" id="node3" href="$class_char_object.html" title="CharObject" alt="" coords="134,54,223,79"/>
+<area shape="rect" id="node5" href="$class_env_object.html" title="EnvObject" alt="" coords="137,103,220,129"/>
+<area shape="rect" id="node6" href="$class_light_object.html" title="LightObject" alt="" coords="134,153,223,178"/>
+<area shape="rect" id="node7" href="$class_terrain_object.html" title="TerrainObject" alt="" coords="128,202,229,227"/>
+<area shape="rect" id="node4" href="$class_player_object.html" title="PlayerObject" alt="" coords="281,54,378,79"/>
+</map>

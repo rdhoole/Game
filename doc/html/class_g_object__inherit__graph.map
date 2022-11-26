@@ -1,0 +1,8 @@
+<map id="GObject" name="GObject">
+<area shape="rect" id="node2" href="$class_camera_object.html" title="CameraObject" alt="" coords="5,81,112,106"/>
+<area shape="rect" id="node3" href="$class_char_object.html" title="CharObject" alt="" coords="137,81,225,106"/>
+<area shape="rect" id="node5" href="$class_env_object.html" title="EnvObject" alt="" coords="249,81,332,106"/>
+<area shape="rect" id="node6" href="$class_light_object.html" title="LightObject" alt="" coords="356,81,444,106"/>
+<area shape="rect" id="node7" href="$class_terrain_object.html" title="TerrainObject" alt="" coords="468,81,568,106"/>
+<area shape="rect" id="node4" href="$class_player_object.html" title="PlayerObject" alt="" coords="133,155,229,181"/>
+</map>

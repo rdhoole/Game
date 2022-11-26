@@ -1,0 +1,5 @@
+<map id="GameEngine::objectUpdate" name="GameEngine::objectUpdate">
+<area shape="rect" id="node2" href="$class_irrlicht_standard.html#aa18343021f243dd2fc1a9f7014e11544" title="IrrlichtStandard::getTime\lStamp" alt="" coords="255,5,422,43"/>
+<area shape="rect" id="node3" href="$class_terrain_object.html#a203005af0bbd6088864bd9903a52e700" title="TerrainObject::remove" alt="" coords="262,67,415,93"/>
+<area shape="rect" id="node4" href="$class_irrlicht_standard.html#a9da9c66e0c56750ad20bf94abd617f71" title="IrrlichtStandard::getDeltaTime" alt="" coords="240,117,438,142"/>
+</map>

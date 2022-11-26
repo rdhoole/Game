@@ -1,0 +1,9 @@
+<map id="GameEngine::setWorld" name="GameEngine::setWorld">
+<area shape="rect" id="node2" href="$class_game_engine.html#a049cfe32a404c29aa4fecb5155d39260" title="Adds animated GObject object. " alt="" coords="214,5,448,30"/>
+<area shape="rect" id="node3" href="$class_game_engine.html#a752931d0c35a4cb021a6228634592feb" title="GameEngine::addStaticGObject" alt="" coords="225,54,436,79"/>
+<area shape="rect" id="node4" href="$class_game_engine.html#a6503a37532c3cd1f0b30f21e6ad11d4e" title="GameEngine::addEnvObject" alt="" coords="236,103,426,129"/>
+<area shape="rect" id="node6" href="$class_game_engine.html#ac69c3a71b5f5a11f21d374aefc09d3d4" title="GameEngine::addCharObject" alt="" coords="233,153,429,178"/>
+<area shape="rect" id="node7" href="$class_game_engine.html#a07b81b766faf9cb71d97214d4e851971" title="GameEngine::addPlayerObject" alt="" coords="228,202,433,227"/>
+<area shape="rect" id="node8" href="$class_game_engine.html#a6163e986ae09b963c5d3c3bf2974161c" title="GameEngine::addTerrainObject" alt="" coords="227,251,435,277"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="496,178,546,203"/>
+</map>

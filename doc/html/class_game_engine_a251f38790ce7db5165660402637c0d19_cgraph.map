@@ -1,0 +1,4 @@
+<map id="GameEngine::addLightObject" name="GameEngine::addLightObject">
+<area shape="rect" id="node2" href="$class_light_object.html#a05caecce677e89f9c43bcb14568ae5dd" title="LightObject::setLightNode" alt="" coords="251,5,426,30"/>
+<area shape="rect" id="node3" href="$class_irrlicht_standard.html#acd86823084ef1e299d0715ab1c7c93af" title="IrrlichtStandard::getScene\lManager" alt="" coords="251,54,426,93"/>
+</map>

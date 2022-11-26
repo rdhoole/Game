@@ -1,0 +1,9 @@
+<map id="GameEngine::doAction" name="GameEngine::doAction">
+<area shape="rect" id="node2" href="$class_game_engine.html#a4a9ed9e9dfdfe675cba6e933a98a00fb" title="Stop the Engine. " alt="" coords="251,54,383,79"/>
+<area shape="rect" id="node5" href="$class_game_engine.html#af587509955d4054dea3fc9c2e5668912" title="GameEngine::setActiveCamera" alt="" coords="213,110,421,135"/>
+<area shape="rect" id="node8" href="$class_game_engine.html#a87ee7e87eaf258b2778f928e492cde21" title="Get camera pointer from game object list by ID. " alt="" coords="217,159,418,185"/>
+<area shape="rect" id="node3" href="$class_game_engine.html#ad8433307dacbfebbecc9f3ee408cf4d1" title="Delete Bullet Objects. " alt="" coords="499,5,653,30"/>
+<area shape="rect" id="node4" href="$class_irrlicht_standard.html#a2db3c8b190f218481e655c9085b20cbd" title="IrrlichtStandard::close" alt="" coords="501,54,651,79"/>
+<area shape="rect" id="node6" href="$class_irrlicht_standard.html#acd86823084ef1e299d0715ab1c7c93af" title="IrrlichtStandard::getScene\lManager" alt="" coords="488,103,664,142"/>
+<area shape="rect" id="node7" href="$class_camera_object.html#a4ca9a3f168d5c486809c9c67bbaa4f77" title="CameraObject::getCameraNode" alt="" coords="470,166,682,191"/>
+</map>

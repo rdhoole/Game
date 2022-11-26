@@ -1,0 +1,36 @@
+
+To compile, running make in src directory
+
+Linux builds will be in lib
+Mac builds will be in bin/MyApp.app/Contents/MacOS/
+
+(Because It will grab the keyboard and mouse there for some reason…)
+
+
+The folder where media will be needs to be an absolute path!!!
+(Final build of game should be in directory...)
+
+PLEASE make clean source before pushing...
+
+=========================
+Adding new source files
+=========================
+
+If it is adding on to GameEngine or other class, add the functions
+declaration in the classes header file under a comment with the source
+files full name eg '// getobject.cpp'
+
+See gameengine.h
+
+==============================
+gameengine in now a shared lib
+==============================
+
+gameengine.h is in src
+
+==============================
+using libGameEngine.so in game
+==============================
+
+Requires you to link to irrlicht bullet and our gameengine
+See test for example of how to build project

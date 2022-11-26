@@ -1,0 +1,4 @@
+<map id="GameEngine::addCameraObject" name="GameEngine::addCameraObject">
+<area shape="rect" id="node2" href="$class_camera_object.html#ac73165339c1e578b75eba9c176f61147" title="CameraObject::setCameraNode" alt="" coords="270,5,482,30"/>
+<area shape="rect" id="node3" href="$class_irrlicht_standard.html#acd86823084ef1e299d0715ab1c7c93af" title="IrrlichtStandard::getScene\lManager" alt="" coords="288,54,464,93"/>
+</map>
