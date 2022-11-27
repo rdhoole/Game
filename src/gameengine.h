@@ -127,7 +127,8 @@ public:
     
     // getobject.cpp
     vector3df getObjectPos(int obj, int id);
-    
+
+    // templates are explicitly define at bottom of this header. 
     template <typename T>
     T* getObjectByID(T* obj, int id)
     {
@@ -148,16 +149,7 @@ public:
         }
         delete obj; // free obj
         return NULL; // object was not found
-    }
-
-    GObject* getObjectByID(GObject* obj, int id);
-    LightObject* getObjectByID(LightObject*, int id);
-    CameraObject* getObjectByID(CameraObject*, int id);
-    EnvObject* getObjectByID(EnvObject* obj, int id);
-    CharObject* getObjectByID(CharObject* obj, int id);
-    PlayerObject* getObjectByID(PlayerObject* obj, int id);
-    TerrainObject* getObjectByID(TerrainObject* obj, int id);
-    
+    }   
     
     // actions.cpp
     void checkEvents();
@@ -230,5 +222,14 @@ private:
     std::string settingsPath;
     std::string objectsPath;
 };
+
+template GObject* GameEngine::getObjectByID(GObject* obj, int id);
+template LightObject* GameEngine::getObjectByID(LightObject*, int id);
+template CameraObject* GameEngine::getObjectByID(CameraObject*, int id);
+template EnvObject* GameEngine::getObjectByID(EnvObject* obj, int id);
+template CharObject* GameEngine::getObjectByID(CharObject* obj, int id);
+template PlayerObject* GameEngine::getObjectByID(PlayerObject* obj, int id);
+template TerrainObject* GameEngine::getObjectByID(TerrainObject* obj, int id);
+ 
 
 #endif /* defined(____gameengine__) */
