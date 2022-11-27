@@ -34,15 +34,15 @@ void GameEngine::doAction(int keystate, int act)
 {
     switch (act)
     {
-        case 0: // no action
+        case ACTION_NO_ACTION:
             if (keystate == EventHandler::KEY_PRESSED)
                 log(GameEngine::LOG_MSG, "KEY NOT ASSIGNED!");
             break;
-        case 1: // Quit
+        case ACTION_QUIT:
             if (keystate == EventHandler::KEY_PRESSED)
                 stop();
             break;
-        case 2: // pause
+        case ACTION_PAUSE:
             if (keystate == EventHandler::KEY_PRESSED)
             {
                 if (isPaused())
@@ -60,33 +60,33 @@ void GameEngine::doAction(int keystate, int act)
                     
             }
             break;
-        case 3: // set camera 1
+        case ACTION_SET_CAMERA_1:
             if (keystate == EventHandler::KEY_PRESSED)
 		setActiveCamera(getObjectByID(new CameraObject,1));
             break;
-        case 4: // set camera 2
+        case ACTION_SET_CAMERA_2:
             if (keystate == EventHandler::KEY_PRESSED)
 		setActiveCamera(getObjectByID(new CameraObject,2));
             break;
-        case 5: // set camera 3
+        case ACTION_SET_CAMERA_3:
             if (keystate == EventHandler::KEY_PRESSED)
                 setActiveCamera(getObjectByID(new CameraObject,3));
             break;
-        case 6: // set camera 4
+        case ACTION_SET_CAMERA_4:
             if (keystate == EventHandler::KEY_PRESSED)
                 setActiveCamera(getObjectByID(new CameraObject,4));
             break;
-        case 7:
+        case ACTION_SPAWN_CUBES:
             if (keystate == EventHandler::KEY_PRESSED ||
                 keystate == EventHandler::KEY_DOWN)
                 if (!isPaused())
                     //spawnCubes();
             break;
-        case 8: // move player forward
+        case ACTION_PLAYER_FORWARD:
             if (keystate == EventHandler::KEY_PRESSED)
                 //printf("MOVE PLAYER FORWARD\n");
             break;
-        case 9:
+        case ACTION_PLAYER_JUMP:
             if (keystate == EventHandler::KEY_PRESSED)
                 log(GameEngine::LOG_MSG, "PLAYER JUMP");
             break;
