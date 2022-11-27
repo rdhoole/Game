@@ -62,19 +62,19 @@ void GameEngine::doAction(int keystate, int act)
             break;
         case ACTION_SET_CAMERA_1:
             if (keystate == EventHandler::KEY_PRESSED)
-		setActiveCamera(getObjectByID(new CameraObject,1));
+		setActiveCamera(getObjectByID<CameraObject>(new CameraObject,1));
             break;
         case ACTION_SET_CAMERA_2:
             if (keystate == EventHandler::KEY_PRESSED)
-		setActiveCamera(getObjectByID(new CameraObject,2));
+		setActiveCamera(getObjectByID<CameraObject>(new CameraObject,2));
             break;
         case ACTION_SET_CAMERA_3:
             if (keystate == EventHandler::KEY_PRESSED)
-                setActiveCamera(getObjectByID(new CameraObject,3));
+                setActiveCamera(getObjectByID<CameraObject>(new CameraObject,3));
             break;
         case ACTION_SET_CAMERA_4:
             if (keystate == EventHandler::KEY_PRESSED)
-                setActiveCamera(getObjectByID(new CameraObject,4));
+                setActiveCamera(getObjectByID<CameraObject>(new CameraObject,4));
             break;
         case ACTION_SPAWN_CUBES:
             if (keystate == EventHandler::KEY_PRESSED ||
@@ -114,9 +114,9 @@ void GameEngine::objectUpdate()
             if ((*it)->getID() == 0) // our health
             {
                 CharObject* health = static_cast<CharObject*>(*it);
-                if (health->hasCollidedWith(getObjectByID(new CharObject, 1)->getPos()) )
+                if (health->hasCollidedWith(getObjectByID<CharObject>(new CharObject, 1)->getPos()) )
                 {
-                    CharObject* player = getObjectByID(new CharObject, 1); // player
+                    CharObject* player = getObjectByID<CharObject>(new CharObject, 1); // player
                     player->health += 25;
                     player->score += 100;
                     
@@ -146,7 +146,7 @@ void GameEngine::objectUpdate()
                                                      monkey->getTargetID())) )
                 {
                     //printf ("I Hit the player!\n");
-                    CharObject* player = getObjectByID(new CharObject, 1); // player
+                    CharObject* player = getObjectByID<CharObject>(new CharObject, 1); // player
                     player->health -= 5; 
                     
                     // you have fulfilled your purpose, DIE!
@@ -154,7 +154,7 @@ void GameEngine::objectUpdate()
                 }
                 
                 // rotation monkey to face target
-                monkey->faceTarget(getObjectByID(new CharObject, 1)->getPos()); // player
+                monkey->faceTarget(getObjectByID<CharObject>(new CharObject, 1)->getPos()); // player
                 
                 // move monkey
                 // make monkey go to your last pos
