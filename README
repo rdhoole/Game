@@ -1,17 +1,13 @@
 
-To compile, running make in src directory
+To compile, running make in src directory. This creates the game library.
+Next, compile test or games directory running make. Use the 'run.sh' script
+to load library's and start program.
 
 Linux builds will be in lib
 Mac builds will be in bin/MyApp.app/Contents/MacOS/
 Mac's that are arm64 do not compile.
 
 (Because It will grab the keyboard and mouse there for some reason…)
-
-
-The folder where media will be needs to be an absolute path!!!
-(Final build of game should be in directory...)
-
-PLEASE make clean source before pushing...
 
 =========================
 Adding new source files
