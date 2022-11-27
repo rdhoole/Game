@@ -127,6 +127,29 @@ public:
     
     // getobject.cpp
     vector3df getObjectPos(int obj, int id);
+    
+    template <typename T>
+    T* getObjectByID(T* obj, int id)
+    {
+        GObject* object; // init object to parent class GObject
+    
+        // iterate and find the correct type of object
+        for (std::list<GObject*>::iterator it = objects.begin(), end = objects.end(); it != end; ++it)
+        {
+            if ((*it)->getObjectType() == obj->getObjectType())
+            {
+                if ((*it)->getID() == id)
+                {
+                    delete obj; // free obj
+                    T* object = static_cast<T*>(*it); // cast to proper type
+                    return object;
+                }
+            }
+        }
+        delete obj; // free obj
+        return NULL; // object was not found
+    }
+
     GObject* getObjectByID(GObject* obj, int id);
     LightObject* getObjectByID(LightObject*, int id);
     CameraObject* getObjectByID(CameraObject*, int id);
