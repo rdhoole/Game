@@ -138,8 +138,8 @@ void GameEngine::objectUpdate()
         // print number of objects in game
         if (debugMode)
         {
-            char buffer[25];
-            sprintf(buffer, "Number of objects in game: %lu", objects.size());
+            char buffer[50];
+            snprintf(buffer, 50, "Number of objects in game: %lu", objects.size());
             log(GameEngine::LOG_DBUG, buffer);
         }
     }
